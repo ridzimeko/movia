@@ -75,12 +75,6 @@ export default function Index() {
                     <TrendingCard movie={item} index={index} />
                   )}
                   keyExtractor={(item) => item.movie_id.toString()}
-                  // columnWrapperStyle={{
-                  //   justifyContent: "flex-start",
-                  //   gap: 20,
-                  //   paddingRight: 5,
-                  //   marginBottom: 10,
-                  // }}
                   className="mb-4 mt-3"
                 />
               </View>
